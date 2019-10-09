@@ -1,0 +1,13 @@
+<div fxLayout="row" fxLayoutGap="10px">
+  <div class="balance" fxFlex="1 0 150px" fxFlex.lt-md="100">
+      <span class="number big">{{amount.getIntegerPart().toLocaleString()}}</span>
+      <span class="point big" *ngIf="mode === 'full'">{{amount.dot()}}</span>
+      <span class="number small" *ngIf="mode === 'full'">{{amount.getFractionalPart() || ''}}</span>
+    
+      <ng-container *ngFor="let s of exchangeSettings">
+        <p class="exchange" *ngIf="!!posqPrices && !!posqPrices[s.value]">${{amount.getAmount() * posqPrices[s.value].usd | number:'1.0-2' }} ({{s.name}})</p>
+      </ng-container>
+
+      <p class="description"><span [matTooltip]="tooltip">{{type}}</span></p>
+  </div>
+</div>

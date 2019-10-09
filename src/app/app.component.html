@@ -1,0 +1,6 @@
+<ng-container *ngIf="!(settingsService.minimode$ | async)">
+    <app-main-view></app-main-view>
+</ng-container>
+<ng-container *ngIf="!!(settingsService.minimode$ | async)">
+    <app-mini-wallet-view></app-mini-wallet-view>
+</ng-container>
