@@ -12,7 +12,7 @@ const userSettings= require('../user/settings');
 const {autoUpdater} = require("electron-updater");
 const PrimerManager = require('../primer/primer').Manager;
 const CoinGeckoClient = require('../coin-gecko/coin-gecko');
-const CoinMarketCupClient = require('../coin-market-cup/coin-market-cup');
+const CoinMarketCupClient = require('../coin-lib/coin-lib');
 const globalStore = require('../global-store/global-store');
 const modeManager = require('../mode-manager/mode-manager');
 
@@ -243,7 +243,7 @@ function initIpcListener() {
           return onSuccess();
         case 'fetch-coin-gecko-prices': 
           return CoinGeckoClient.fetch('posq').then(onSuccess, onError);
-        case 'fetch-coin-market-cup-prices': 
+        case 'fetch-coin-lib-prices': 
           return CoinMarketCupClient.fetch('posq').then(onSuccess, onError);
         // auto-updater
         case 'check-update':

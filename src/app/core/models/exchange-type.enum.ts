@@ -1,5 +1,5 @@
 export enum ExchangeType {
     Average = 'average',
-    Coinlib = 'coin-market-cup',
+    Coinlib = 'coin-lib',
     CoinGecko = 'coin-gecko'
 } 
