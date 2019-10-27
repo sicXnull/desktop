@@ -6,10 +6,10 @@
         "linux": {
           "x64": {
             "download": {
-              "url": "https://posq-blockchain.ams3.digitaloceanspaces.com/releases/1.0.4/posq_ubuntu.zip",
-              "type": "zip",
-              "sha256": "daf30b2d51d0869c07917157bcd3ef770fe1a006ab1d1ee0887c5ba1063ae0b7",
-              "bin": "posq_ubuntu/posqd"
+              "url": "https://github.com/Poseidon-POSQ/POSQ/releases/download/v2.1.4/POSQ_Linux_2.1.4.tar.gz",
+              "type": "tar",
+              "sha256": "333f77ab361437bbd2a5b562f71873720ede6282bad02a4269b4a7717fb3d67a",
+              "bin": "posqd"
             },
             "bin": "posqd",
             "commands": {
@@ -28,10 +28,10 @@
         "mac": {
           "x64": {
             "download": {
-              "url": "https://posq-blockchain.ams3.digitaloceanspaces.com/releases/1.0.4/posq_osx.zip",
-              "type": "zip",
-              "sha256": "1c97188ea0c33a8383c78ca54fc1e8a431b2cc791123784e364a71911a27b82e",
-              "bin": "posq_osx/posqd"
+              "url": "https://github.com/Poseidon-POSQ/POSQ/releases/download/v2.1.4/POSQ_OSX_2.1.4.dmg",
+              "type": "dmg",
+              "sha256": "10e8cab18699da54d42be0ba97fccb953a3f4ad91f299a33c15f556d1ae86f1b",
+              "bin": "posqd"
             },
             "bin": "posqd",
             "commands": {
@@ -48,12 +48,12 @@
           }
         },
         "win": {
-          "x64": {
+          "ia32": {
             "download": {
-              "url": "https://posq-blockchain.ams3.digitaloceanspaces.com/releases/1.0.4/posq_win_64-signed.zip",
+              "url": "https://github.com/Poseidon-POSQ/POSQ/releases/download/v2.1.4/POSQ_Windows_2.1.4.zip",
               "type": "zip",
-              "sha256": "ddd5fb1427b2441e41b9f53734b34101ac8c1d12b247d6384606e4b8f21546a2",
-              "bin": "posq_win_64/posqd.exe"
+              "sha256": "abe8801f29e685e270ee4ead59eabf5743d8c8af61d5b64193281d75a46c1032",
+              "bin": "posqd.exe"
             },
             "bin": "posqd.exe",
             "commands": {

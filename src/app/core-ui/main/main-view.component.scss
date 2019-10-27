@@ -5,7 +5,7 @@
 \* ------------------------------- */
 
 
-// ------ POSQDER ------ //
+// ------ DIVIDER ------ //
 
 .mat-posqder { // section posqder
   border-bottom: 1px solid lighten($bg-black, 5%);
@@ -123,18 +123,18 @@ a.sidebar-item-link {
 
 .sidebar { // AKA .mat-sidenav
   @extend %disable-select;
-  width: 90px;
+  width: 85px;
   background-color: $bg-white;
   color: white;
 
   .logo {
-    margin: 20px auto 40px auto;
+    margin: 30px auto 60px auto;
     display: block;
-    height: 50px;
-    width: 50px;
+    height: 32px;
+    width: 60px;
     padding-left: 0;
     img {
-      height: 50px;
+      height: 64px;
     }
   }
 

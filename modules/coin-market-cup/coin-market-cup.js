@@ -8,12 +8,12 @@ function fetch(coin) {
     }
 
     return new Promise((res, rej) => {
-        request.get(`http://142.93.141.60:1397/quote/${coinId}`, (error, response, body) => {
+        request.get(`https://coinlib.io/api/v1/coin?key=25517591efe6bd7f&pref=USD&symbol=POSQ`, (error, response, body) => {
             if (error) {
                 return rej(error);
             }
             const json = JSON.parse(body);
-            return res({ usd: json.USD.price });
+            return res({ usd: json.price });
         });
     });
 }

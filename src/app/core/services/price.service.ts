@@ -11,7 +11,7 @@ const PRICES_CACHE_DURATION = 60;
 export class PriceService {
     private types: ExchangeType[] = [
         ExchangeType.CoinGecko,
-        ExchangeType.CoinMarketCap
+        ExchangeType.Coinlib
     ];
 
     constructor(

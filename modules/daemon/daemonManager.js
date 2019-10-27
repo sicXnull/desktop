@@ -14,7 +14,7 @@ let options;
 
 const daemonObjectName = 'posqd';
 
-const BINARY_URL = 'https://posq-blockchain.ams3.digitaloceanspaces.com/releases/1.0.4/clientBinaries.json';
+const BINARY_URL = 'https://raw.githubusercontent.com/sicXnull/POSQ-Desktop/master/modules/clientBinaries/clientBinaries.json';
 
 //const ALLOWED_DOWNLOAD_URLS_REGEX = new RegExp('*', 'i');
 

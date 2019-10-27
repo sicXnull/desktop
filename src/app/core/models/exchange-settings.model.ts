@@ -11,9 +11,9 @@ export class ExchangeSettingsHelper {
         enabled = enabled || [];
 
         return [{
-            name: 'CoinMarketCap',
-            value: ExchangeType.CoinMarketCap,
-            enabled: enabled.indexOf(ExchangeType.CoinMarketCap) >= 0
+            name: 'Coinlib',
+            value: ExchangeType.Coinlib,
+            enabled: enabled.indexOf(ExchangeType.Coinlib) >= 0
         }, {
             name: 'CoinGecko',
             value: ExchangeType.CoinGecko,

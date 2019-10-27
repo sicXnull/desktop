@@ -51,7 +51,7 @@
     "extraFiles": [
       "uninstall/*",
       "dist/assets/sounds/caching.wav",
-      "dist/assets/icons/notification.png"
+      "dist/assets/icons/notification-posq.png"
     ],
     "directories": {
       "buildResources": "resources",
@@ -171,7 +171,7 @@
       },
       "category": "Finance",
       "packageCategory": "wallet",
-      "icon": "resources/linux"
+      "icon": "resources/linux/notification-posq.png"
     },
     "asar": true
   },
