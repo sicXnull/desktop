@@ -118,7 +118,7 @@ export class TransactionsTableComponent implements OnInit, OnDestroy {
   }
 
   public goToPOSQScan(txid: string): void {
-    window.open(`https://posqscan.io/tx/${txid}`, '_blank')
+    window.open(`https://poseidonchain.info/tx/${txid}`, '_blank')
   }
 
   public export(categories: any): void {

@@ -10,8 +10,8 @@ const rimraf = require("rimraf");
 const fse = require('fs-extra');
 const log = require('electron-log');
 
-const MAINNET_PRIMER_BACKUP_URL = "https://posq-primer.nyc3.digitaloceanspaces.com/primer.zip";
-const TESTENT_PRIMER_BACKUP_URL = "https://posq-primer.nyc3.digitaloceanspaces.com/testnet/primer.zip";
+const MAINNET_PRIMER_BACKUP_URL = "https://posq.io/primer.zip";
+const TESTENT_PRIMER_BACKUP_URL = "https://posq.io/primer.zip/testnet/primer.zip";
 
 const MAINNET_PRIMER_BACKUP_NAME = "primer";
 const TESTENT_PRIMER_BACKUP_NAME = "primer-testnet";
